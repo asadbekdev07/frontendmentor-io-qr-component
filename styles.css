@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.qr-component {
+  justify-content: center;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 320px;
+  background-color: #ffffff;
+}
+.qr-component__img {
+  width: 288px;
+  height: 288px;
+  margin-bottom: 24px;
+}
+.qr-component__inner {
+  text-align: center;
+}
+.qr-component__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.qr-component__description {
+  margin: 0;
+  font-size: 18px;
+}
