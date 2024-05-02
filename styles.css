@@ -30,8 +30,10 @@ body {
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 24px;
+  color: #1f314f;
 }
 .qr-component__description {
   margin: 0;
   font-size: 18px;
+  color: #7d889e;
 }
